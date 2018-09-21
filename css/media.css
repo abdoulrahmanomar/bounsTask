@@ -1,0 +1,12 @@
+@media (max-width:767px)
+{
+    .nav-link
+    {
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    .carou
+    {
+        display: none;
+    }
+}

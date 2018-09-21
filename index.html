@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=dev ice-width, initial-scale=1, shrink-to-fit=no">
+        <title>learn boot strap</title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/rtl.css">
+        <link rel="stylesheet" href="css/fontawesome.css">
+        <link rel="stylesheet" href="css/v4-shims.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/solid.css" integrity="sha384-S2gVFTIn1tJ/Plf+40+RRAxBCiBU5oAMFUJxTXT3vOlxtXm7MGjVj62mDpbujs4C" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/brands.css" integrity="sha384-SYNjKRRe+vDW0KSn/LrkhG++hqCLJg9ev1jIh8CHKuEA132pgAz+WofmKAhPpTR7" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/fontawesome.css" integrity="sha384-0b7ERybvrT5RZyD80ojw6KNKz6nIAlgOKXIcJ0CV7A6Iia8yt2y1bBfLBOwoc9fQ" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/media.css">
+        <link rel="stylesheet" href="css/default_theme.css">
+        <link rel="stylesheet" href="css/animate.css">
+        
+    <!--[if lt IE 9]>  
+	<script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+    
+    </head>
+    <body>
+        <nav class="navbar  navbar-expand-lg navbar-dark bg-dark fixed-top ">
+            <div class="container">
+                  <a class="navbar-brand" href="#">ElZahraa <span>Inc.</span></a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto  ">
+                      <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                      </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="FAQ.html">FAQ</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Services
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <a class="dropdown-item" href="#">Programming</a>
+                              <a class="dropdown-item" href="#">Web Design</a>
+                              <div class="dropdown-divider"></div>
+                              <a class="dropdown-item" href="#">Web Hosting</a>
+                        </div>
+                      </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">Map</a>
+                      </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                      </li>
+                      
+                    </ul>
+                   
+                  </div>
+              </div>
+          </nav>
+        <!--start slider-->
+        
+            <div id="myslide" class="carousel slide carou" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                    <li data-target="#myslide" data-slide-to="0" class="active"></li>
+                    <li data-target="#myslide" data-slide-to="1"></li>
+                    <li data-target="#myslide" data-slide-to="2"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img class="d-block w-100 img-fluid" src="imgs/2.png" alt="First slide">
+                        <div class="carousel-caption hidden-xs d-none d-md-block">
+                        <h1>Programming</h1>
+                        <p class="lead">The carousel is a slideshow for cycling through a series of content, built with CSS 3D transforms and a bit of JavaScript. It works with a series of images, text, or custom markup. It also includes support for previous/next controls and indicators.</p>
+                     </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100 img-fluid" src="imgs/3.jpg" alt="Second slide">
+                        <div class="carousel-caption hidden-xs d-none d-md-block">
+                        <h1>SoftWear Engnineers</h1>
+                        <p class="lead">The carousel is a slideshow for cycling through a series of content, built with CSS 3D transforms and a bit of JavaScript. It works with a series of images, text, or custom markup. It also includes support for previous/next controls and indicators.</p>
+                     </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100 img-fluid" src="imgs/8257d2ce6438b91.jpg" alt="Third slide">
+                        <div class="carousel-caption hidden-xs d-none d-md-block">
+                        <h1>Web Hosting</h1>
+                        <p class="lead">The carousel is a slideshow for cycling through a series of content, built with CSS 3D transforms and a bit of JavaScript. It works with a series of images, text, or custom markup. It also includes support for previous/next controls and indicators.</p>
+                     </div>
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#myslide" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#myslide" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                
+                      
+               
+            </div>
+        <!--end carouse;-->
+        <!--start about-->
+        
+         <section class="about text-center wow bounceIn" data-wow-duration="1s" data-wow-offset="300">
+             <div class="container">
+                 <h1>Meet Our New Template <span>ElZahraa Inc.</span></h1>
+                 <p class="lead"> Hello let me Introduce Our New Template ElZahraa Inc. with <strong>Bootstrapv4.2.1</strong></p>
+            </div>
+        </section>
+       <!--end about-->
+        <!--start section features-->
+       <section class="features text-center" >
+           <div class="container">
+               <h1> Our Features</h1>
+               <div class="row">
+                   <div class="col-lg-3 col-md-6 ">
+                       <div class="feat wow bounceInLeft" data-wow-duration="1s" data-wow-offset="100">
+                              <img class="img1" src="svg/si-glyph-checked.svg"/>
+                               <h4>100% Responsive</h4>
+                               <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua laborum.</p>
+                        </div>
+                       
+                       
+                   </div>
+                   <div class="col-lg-3 col-md-6">
+                       <div class="feat wow bounceInUp" data-wow-duration="1s" data-wow-offset="100">
+                              <img class="img1" src="svg/si-glyph-like.svg"/>
+                               <h4>Ritena ready</h4>
+                               <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua laborum.</p>
+                        </div>
+                       
+                       
+                   </div>
+                   <div class="col-lg-3 col-md-6">
+                       <div class="feat wow bounceInDown" data-wow-duration="1s" data-wow-offset="100">
+                              <img class="img1" src="svg/si-glyph-desktop.svg"/>
+                               <h4>Awsome Display</h4>
+                               <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua laborum.</p>
+                        </div>
+                       
+                       
+                   </div>
+                   <div class="col-lg-3 col-md-6">
+                       <div class="feat wow bounceInRight" data-wow-duration=".5s" data-wow-offset="100">
+                              <img class="img1" src="svg/si-glyph-document-copy.svg"/>
+                               <h3>Well Documented</h3>
+                               <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua laborum.</p>
+                        </div>
+                       
+                       
+                   </div>
+                   
+               </div>
+           </div>
+           
+           
+        </section>
+       <!--End About-->
+        <!--Start testmonil-->
+        <section class="testimonials text-center wow flipInY" data-wow-duration="1s" data-wow-offset="400">
+            <div class="container">
+                <h1>What Our Clients Say?</h1>
+              <div id="carousel" class="carousel slide" data-ride="carousel">
+                  
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      
+                        <p class="lead">The carousel is a slideshow for cycling through a series of content, built with CSS 3D transforms and a bit of JavaScript. It works with a series of images, text, or custom markup. It also includes support for previous/next controls and indicators.</p>
+                        <span>Galal</span> 
+                     </div>
+                    
+                    <div class="carousel-item">
+                      <p class="lead">The carousel is a slideshow for cycling through a series of content, built with CSS 3D transforms and a bit of JavaScript. It works with a series of images, text, or custom markup. It also includes support for previous/next controls and indicators.</p>
+                        <span>Medo</span>
+                     
+                    </div>
+                    <div class="carousel-item">
+                        
+                        <p class="lead">The carousel is a slideshow for cycling through a series of content, built with CSS 3D transforms and a bit of JavaScript. It works with a series of images, text, or custom markup. It also includes support for previous/next controls and indicators.</p>
+                        <span>Sayed</span>
+                     </div>
+                    
+                 
+                 
+                
+                      
+               
+            </div>
+                  <ol class="carousel-indicators">
+                    <li data-target="#carousel" data-slide-to="0" class="active">
+                        <img src="imgs/ava.png">
+                        
+                    </li>
+                    <li data-target="#carousel" data-slide-to="1">
+                        <img src="imgs/ave.png">
+                      </li>
+                    <li data-target="#carousel" data-slide-to="2">
+                        <img src="imgs/10-128.png">
+                      </li>
+                  </ol>
+            </div>
+                
+                
+            </div>
+            
+            
+        
+        </section>
+        <!--End Testimonial-->
+        <!--Start Price Table-->
+        <section class="price text-center">
+            <div class="container">
+                <h1>Our Amazing Prices</h1>
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6 col-xs-12">
+                        <div class="price-box wow fadeInUp" data-wow-duration="2s" data-wow-offset="150">
+                            <h2 class="text-primary">Hosting</h2>
+                            <p class="lead center-block">$40</p>
+                            <ul class="list-unstyled">
+                                <li>Space:30GP</li>
+                                <li>Emails:20</li>
+                                <li>Ips:2 ip</li>
+                                <li>Database:10</li>
+                                <li>Ftp acount:5</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary">Order Now</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-xs-12">
+                        <div class="price-box wow fadeInDown"data-wow-duration="2s" data-wow-offset="150">
+                            <h2 class="text-success">Vps</h2>
+                            <p class="lead center-block">$50</p>
+                            <ul class="list-unstyled">
+                                <li>Space:50GP</li>
+                                <li>Emails:30</li>
+                                <li>Ips:5ip</li>
+                                <li>Database:20</li>
+                                <li>Ftp acount:10</li>
+                            </ul>
+                            <button type="button" class="btn btn-success">Order Now</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-xs-12">
+                        <div class="price-box wow fadeInUp" data-wow-duration="2s" data-wow-offset="150">
+                            <h2 class="text-danger">Dedicated</h2>
+                            <p class="lead center-block">$70</p>
+                            <ul class="list-unstyled">
+                                <li>Space:80GP</li>
+                                <li>Emails:40</li>
+                                <li>Ips:8ip</li>
+                                <li>Database:30</li>
+                                <li>Ftp acount:20 </li>
+                            </ul>
+                            <button type="button" class="btn btn-danger">Order Now</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-xs-12">
+                        <div class="price-box wow fadeInDown" data-wow-duration="2s" data-wow-offset="150">
+                             <h2 class="text-info">Cloud</h2>
+                            <p class="lead center-block">$90</p>
+                            <ul class="list-unstyled">
+                                <li>Space:90GP</li>
+                                <li>Emails:50</li>
+                                <li>Ips:10 ip</li>
+                                <li>Database:50</li>
+                                <li>Ftp acount:50</li>
+                            </ul>
+                            <button type="button" class="btn btn-info">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End Price Table-->
+        <!--Start Our Teams-->
+        <section class="team text-center  ">
+            <div class="tea">
+                <div class="container">
+
+                    <h1>Meet Our Awesome team</h1>
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 col-xs-12">
+                            <div class="persn wow pulse" data-wow-duration="1s" data-wow-offset="150">
+                                <img class="rounded-circle" src="imgs/200.png">
+                                <h2>Larry Page</h2>
+                                <p class="lead">This is Larry Page The Founder of Google</p>
+                                <i class="fab fa-google"></i>
+                                <i class="fab fa-python"></i>
+                                <i class="fab fa-github"></i>
+                                <i class="fab fa-youtube"></i>
+                                <i class="fab fa-twitter"></i>
+                                 <i class="fab fa-apple"></i>
+
+
+
+
+                            </div>
+                            
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-xs-12">
+                            <div class="persn wow pulse" data-wow-duration="1s" data-wow-offset="150">
+                                <img class="rounded-circle"src="imgs/steve.jpg">
+                                <h2>Steve jobs</h2>
+                                <p class="lead">This is Steve Jobs The Founder of Apple</p>
+                                <i class="fab fa-apple"></i>
+                                  <i class="fab fa-python"></i>
+                                <i class="fab fa-github"></i>
+                                <i class="fab fa-youtube"></i>
+                                <i class="fab fa-twitter"></i>
+                                 
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-xs-12">
+                            <div class="persn wow pulse" data-wow-duration="1s" data-wow-offset="150">
+                                <img class="rounded-circle" src="imgs/sopie.jpg">
+                                <h2>Sophie turner</h2>
+                                <p class="lead">This is Sophie turner The Founder of Game of Thrones</p>
+                                
+                                <i class="fab fa-python"></i>
+                                <i class="fab fa-github"></i>
+                                <i class="fab fa-youtube"></i>
+                                <i class="fab fa-twitter"></i>
+                                 <i class="fab fa-apple"></i>
+                                <i class="fab fa-google"></i>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-xs-12">
+                            <div class="persn wow pulse" data-wow-duration="1s" data-wow-offset="150">
+                                <img class="rounded-circle" src="imgs/nelson.jpg">
+                                <h2>Nelson Mandella</h2>
+                                <p class="lead">This is Nelson Mandella The Founder of Revolution</p>
+                                <i class="fab fa-python"></i>
+                                <i class="fab fa-github"></i>
+                                <i class="fab fa-youtube"></i>
+                                <i class="fab fa-twitter"></i>
+                                 <i class="fab fa-apple"></i>
+                                 <i class="fab fa-google"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    </div>
+            </div>
+                
+           
+        
+        </section>
+        <!--End Our Teams-->
+        <!--Start section subscribe-->
+        <section class="sub text-center" >
+            <div class="container wow fadeInUp" data-wow-duration="2s" data-wow-offset="150">
+                <h1>Keep In Touch</h1>
+                <p class="lead">Sign Up For Newsletter Don't Worry About Spam We Hate It Too</p>
+                <form class="form-inline">
+                    <input class="form-control" type="text" placeholder="Write your Email">
+                    <button class="btn btn-danger"> <i class="fa fa-edit"></i>Subscribe</button>
+                
+                </form>
+            
+            </div>
+        
+        </section>
+        <!--end section subscribe-->
+        <!--Statistics-->
+        <section class="statistics text-center">
+            <div class="stat">
+                <div class="container">
+                    <h1>Our Main Statistics</h1>
+                    <div class="row">
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="statis">
+                                <i class="fa fa-users fa-5x"></i>
+                                <p class="lead">9,550</p>
+                                <span>Satisfied Users</span>
+                                
+                            
+                            </div>
+                            
+                        </div>
+                        <div class="col-lg-3 col-sm-6 ">
+                            <div class="statis">
+                               <i class="fa fa-comments fa-5x"></i>
+                                <p class="lead">25,650</p>
+                                <span>Posted Comments</span>
+                            
+                            </div>
+                            
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="statis">
+                               <i class="fa fa-suitcase fa-5x"></i>
+                                <p class="lead">3,260</p>
+                                <span>Projects</span>
+                            
+                            </div>
+                            
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="statis">
+                                <i class="fa fa-support fa-5x"></i>
+                                <p class="lead">95,350</p>
+                                <span>Tickets Archieved</span>
+                                
+                            
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+        
+        </section>
+        <!--End statistics-->
+        <!--start our skills-->
+        <section class="our-skills  text-center">
+            <div class="container">
+                <h1>Our Skills</h1>
+                <div class="row">
+                    
+                    <div class="col-md-5">
+                        <div class="skill">
+                 <div class="progress">
+                        <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                            Html5/Css3
+                         </div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"> PHP/MySQL</div>
+                   
+                </div>
+                <div class="progress">
+                     <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"> 
+                         Javascipt/jQuery</div>
+                  
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                         WordPress
+                    </div>
+                   
+                </div>
+                 
+                            
+                        
+                        </div>
+                    
+                    </div>
+                    <div class="col-md-6 offset-md-1">
+                        <div class="skill-info">
+                            <h2>About The team</h2>
+                            <p class="lead">We Are Specialized Designing And Programming Team Passionate About Web Design And Creatin Digital Ideas We Will Transfer Your Idea To A Digital Dream And Make Your Dream Come True</p>
+                            <button type="button" class="btn btn-primary">
+                                Talk With Professional
+                            </button>
+                        
+                        </div>
+                    
+                    </div>
+                    
+                
+                </div>
+            </div>
+        
+        </section>
+        <!--end our skills-->
+        <!--Contact us-->
+        <section class="contact-us text-center">
+            <div class="contact">
+                <div class="container">
+                   
+                        <i class="fa fa-headphones fa-4x"></i>
+                        <h1>Tell Us What You Feel</h1>
+                        <p class="lead">Feel free to Contact Us Any Time</p>
+                        <!--contact form-->
+                     
+                        <form class="" role="form">
+                            <div class="row">
+                                <div class="col-md-6 wow bounceInLeft" data-wow-duration="1s" data-wow-offset="150">
+                                <div class="form-group">
+                                    <input type="text" class="form-control form-control-lg" placeholder="Username">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control form-control-lg" placeholder="Email">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control form-control-lg" placeholder="Cell Phone">
+                                </div>
+                             </div>
+                            <div class="col-md-6 wow bounceInRight" data-wow-duration="1s" data-wow-offset="150">
+                                <div class="form-group">
+                                    <textarea class="form-control form-control-lg" placeholder="Your Massege"></textarea>
+                                
+                                </div>
+                                <button type="button" class="btn btn-primary btn-block">
+                                    Contact Us
+                                </button>
+                                
+                            </div>
+                        </div>
+                          
+
+                        </form>
+                    
+                    
+                
+                </div>
+            
+            </div>
+            
+        
+        </section>
+        <!--End Contact Us-->
+        
+        <!--Start Our Clients-->
+        <section class="our-clients">
+            <div class="container">
+             
+                    <ul class="list-unstyled">
+                    <div class="row">
+                        <li class="col-md-2 col-xs-4">
+                            <img class="wow bounceIn" src="imgs/our-clients/client1.png" data-wow-duration=".5s" data-wow-offset="150" data-wow-delay=".5s">
+                        </li>
+                         <li class="col-md-2 col-xs-4">
+                             <img class="wow bounceIn" src="imgs/our-clients/client3.png" data-wow-duration=".5s" data-wow-offset="150" data-wow-delay="1s">
+                        </li>
+                         <li class="col-md-2 col-xs-4">
+                             <img class="wow bounceIn" src="imgs/our-clients/client4.png" data-wow-duration=".5s" data-wow-offset="150" data-wow-delay="1.5s">
+                        </li>
+                         <li class="col-md-2 col-xs-4">
+                             <img class="wow bounceIn" src="imgs/our-clients/client5.png" data-wow-duration=".5s" data-wow-offset="150" data-wow-delay="2s">
+                        </li>
+                         <li class="col-md-2 col-xs-4">
+                             <img class="wow bounceIn" src="imgs/our-clients/client2.jpg" data-wow-duration=".5s" data-wow-offset="150" data-wow-delay="2.5s">
+                        </li>
+                         <li class="col-md-2 col-xs-4">
+                             <img class="wow bounceIn" src="imgs/our-clients/client7.png" data-wow-duration=".5s" data-wow-offset="150" data-wow-delay="3s">
+                        </li>
+                     </div>
+                    </ul>
+                
+                
+               
+            
+            
+            </div>
+        
+        </section>
+        
+        <!--End Our Clients-->
+        <!--start footer-->
+        <section class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <h3>SiteMap</h3>
+                        <ul class="list-unstyled three-col">
+                            <li>Home</li>
+                            <li>About</li>
+                            <li>FAQ</li>
+                            <li>Code</li>
+                            <li>Design</li>
+                            <li>Host</li>
+                            <li>Solution</li>
+                            <li>Sitemap</li>
+                            <li>Contact Us</li>
+                        
+                        </ul>
+                        <ul class="list-unstyled social">
+                            <li>
+                                <img src="imgs/social-icons/if_square-facebook_317727.png" alt="facebook">
+                            </li>
+                            <li>
+                                <img src="imgs/social-icons/if_square-google-plus_317726.png" alt="google-plus">
+                            </li>
+                            <li>
+                                <img src="imgs/social-icons/linked.png" alt="linked">
+                            </li>
+                            <li>
+                                <img src="imgs/social-icons/if_instagram-round-flat_1620009.png" alt="instagram">
+                                
+                            </li>
+                            <li>
+                                <img src="imgs/social-icons/if_pinterest_291692.png" alt="pinterest">
+                            </li>
+                            <li>
+                                <img src="imgs/social-icons/if_social-media_youtube_1543314.png" alt="youtube">
+                            </li>
+                        
+                        </ul>
+                    
+                    </div>
+                    <div class="col-lg-4">
+                        <h3>Latest Articles</h3>
+                        <div class="media">
+                              <img class="mr-3" src="imgs/articles/programming.png" alt="Generic placeholder image">
+                              <div class="media-body">
+                                <h5 class="mt-0">programming</h5>
+                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.
+                              </div>
+                          </div>
+                         <div class="media">
+                              <img class="mr-3" src="imgs/articles/if_11_Hosting_Service_1688866.png" alt="Generic placeholder image">
+                              <div class="media-body">
+                                <h5 class="mt-0">Hosting</h5>
+                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.
+                              </div>
+                          </div>
+                         <div class="media">
+                              <img class="mr-3" src="imgs/articles/if_network_1287518.png" alt="Generic placeholder image">
+                              <div class="media-body">
+                                <h5 class="mt-0">Network</h5>
+                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.
+                              </div>
+                          </div>
+           
+                        
+                    </div>
+                    <div class="col-lg-4">
+                        <h3>Our Work</h3>
+                        <img class="img-thumbnail " src="imgs/work/1.JPG">
+                        <img class="img-thumbnail " src="imgs/work/2.jpg">
+                        <img class="img-thumbnail " src="imgs/work/3.jpg">
+                        <img class="img-thumbnail " src="imgs/work/4.JPG">
+                    
+                    </div>
+                
+                </div>
+            
+            </div>
+            <div class="copyright text-center">
+                Copyright &copy; 2018 <span>ElZahraa</span>.inc
+            
+            </div>
+        
+        </section>
+        <!--end footer-->
+        <!--start section tool box-->
+        <section class="option">
+            <div class="color">
+                <h4>Color Option</h4>
+                <ul class="list-unstyled">
+                    <li data-value="css/default_theme.css"></li>
+                    <li data-value="css/purple_theme.css"></li>
+                    <li data-value="css/blue_theme.css"></li>
+                    <li data-value="css/yello_theme.css"></li>
+                   
+                </ul>
+                
+            </div>
+            <i class="fa fa-gear fa-3x gear"></i>
+        
+        </section>
+        <!--end section tool box-->
+        <!-- start loading section-->
+       <!-- <section class="loading-overlay">
+           <div class="spinner">
+                  <div class="double-bounce1"></div>
+                  <div class="double-bounce2"></div>
+             </div>
+        
+        </section>-->
+        <!-- end loading section-->
+        <!-- start scroll to top-->
+        <div id="scroll">
+            <i class="fa fa-chevron-up fa-3x "></i>
+        
+        
+        </div>
+        
+        <!--end scroll to top-->
+        
+        
+       
+        
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/plugins.js"></script>
+         <script src="js/wow.min.js"></script>
+        <script>
+            new WOW().init();
+        
+        </script>
+        <script src="js/jquery.nicescroll.min.js"></script>
+        
+    </body>
+
+
+</html>

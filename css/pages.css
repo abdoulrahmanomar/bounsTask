@@ -1,0 +1,95 @@
+/* start about us*/
+
+.bread
+{
+   background-color: #F5F5F5;
+    
+    
+    
+}
+
+.breadcrumb
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.about-us{
+    padding: 70px 0;
+}
+
+.about-us h1
+{
+    letter-spacing: -3px;
+    font-size: 62px;
+}
+
+.about-us hr
+{
+    width: 70%;
+}
+
+
+.about-features
+{
+    padding: 0 0 70px;
+    
+}
+
+.about-features h3,
+
+{
+    letter-spacing: -1px;
+}
+
+.about-features p
+{
+    margin-bottom: 20px;      
+}
+
+.ceo
+{
+    background-color: #EEE;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.ceo img
+{
+    margin-bottom: 10px;
+}
+
+.ceo .lead
+{
+    line-height: 1.7
+}
+
+.ceo .btn-primary
+{
+    background-color: #333;
+    border-color: #333;
+    
+}
+/* End about us*/
+
+/* start faq*/
+.faq
+{
+    padding: 40px 0;
+    
+}
+.faq h1 
+{
+    letter-spacing:-3px;
+    font-size: 65px;
+}
+.faq h1 ~ hr
+{
+    width:70%;
+    
+}
+
+.accordion .card button:after
+{
+    content: "<img src="svg/si-glyph-arrow-down.svg" width="30px" height="30px"/>"
+}

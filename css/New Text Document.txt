@@ -1,0 +1,42 @@
+.media {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.media-body {
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.mr-3,
+.mx-3 {
+  margin-right: 1rem !important;
+}
+.mt-0,
+.my-0 {
+  margin-top: 0 !important;
+}
+<h3>Latest Articles</h3>
+                        <div class="media">
+                              <img class="mr-3" src="imgs/articles/programming.png" alt="Generic placeholder image">
+                              <div class="media-body">
+                                <h5 class="mt-0">programming</h5>
+                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.
+                              </div>
+                          </div>
+                         <div class="media">
+                              <img class="mr-3" src="imgs/articles/if_11_Hosting_Service_1688866.png" alt="Generic placeholder image">
+                              <div class="media-body">
+                                <h5 class="mt-0">Hosting</h5>
+                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.
+                              </div>
+                          </div>
+                         <div class="media">
+                              <img class="mr-3" src="imgs/articles/if_network_1287518.png" alt="Generic placeholder image">
+                              <div class="media-body">
+                                <h5 class="mt-0">Network</h5>
+                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.
+                              </div>
+                          </div>
